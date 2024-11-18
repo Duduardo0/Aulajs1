@@ -5,13 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+
+        body
+        {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1
+        {
+            background-color: blue;
+            color: white;
+            text-align: center;
+
+            margin: 0;
+            padding: 10px;
+        }
+
+        form
+        {
+            margin: auto;
+            padding: 300px;
+            border: 1px solid black;
+            margin-top: 20px;
+            box-shadow: 0 0 10px lightblue;
+            padding: 5px;
+        }
+
+        input[type=text]
+        {
+            width: 280px;
+            padding: 5px;
+            color: blue;
+        }
+
+        inpute[type=submit]
+        {
+         background-color: blue;
+         color: white;
+         border: none;
+         padding: 10px;   
+        }
+    </style>
 </head>
 <body>
-    <h1>Exemplo 1 - 4/11</h1>
+    <h1>Revisão de Formulários e CSS </h1>
+
     <form>
         <p>
-            Digite a Nota do aluno:
+            Digite o nome do Aluno: <br>
             <input type="text">
+        </p>
+
+        <p>
+            Digite o nome do responsável: <br>
+            <input type="text">
+        </p>
+
+        <p>
+            Digite o nome do responsável 2: <br>
+            <input type="text">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
         </p>
     </form>
 </body>
